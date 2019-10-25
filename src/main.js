@@ -3,7 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import {Button,Select,Row,Col,Pagination} from 'element-ui'
 
+Vue.use(Button).use(Select).use(Row).use(Col).use(Pagination)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
